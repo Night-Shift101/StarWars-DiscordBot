@@ -1,0 +1,27 @@
+{
+  "name": "discordstarwars",
+  "version": "0.0.0",
+  "description": "A bot for all things StarWars for your Discord servers.",
+  "keywords": [
+    "StarWars",
+    "Discord"
+  ],
+  "homepage": "https://github.com/Night-Shift101/StarWars-DiscordBot#readme",
+  "bugs": {
+    "url": "https://github.com/Night-Shift101/StarWars-DiscordBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Night-Shift101/StarWars-DiscordBot.git"
+  },
+  "license": "CC0-1.0",
+  "author": "NightShift101",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  }
+}
