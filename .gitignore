@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# Environment variables
+.env
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -36,6 +39,9 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+
+# Node Package Lock
+package-lock.json
 
 # Dependency directories
 node_modules/
@@ -137,3 +143,70 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Development files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/.ropeproject
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Development databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Test files
+test-results/
+coverage/
+*.test.log
+
+# Build artifacts
+build/
+dist/
+out/
+
+# Development scripts output
+debug.log
+error.log
+
+# Local development files
+.local
+local/
+dev/
+development/
+
+# Hot reload files
+.hot-update.json
+*.hot-update.js
+
+# Dependency lock files (if using different package managers)
+yarn.lock
+pnpm-lock.yaml
+
+# Documentation builds
+docs/build/
+docs/dist/
